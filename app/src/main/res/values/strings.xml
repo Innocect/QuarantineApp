@@ -1,8 +1,25 @@
 <resources>
-    <string name="app_name">QuarintineInternship</string>
+    <string name="app_name">SAFE QUARANTINE</string>
     <string name="rent_a_potential_quarantine_site">RENT A POTENTIAL QUARANTINE SITE</string>
     <string name="skip">Skip</string>
     <string name="next">Next</string>
     <string name="todo">TODO</string>
     <string name="check_all_the_facilities">CHECK ALL THE FACILITIES</string>
+    <string name="logout">Logout</string>
+    <string name="contact_preferences">Contact Preferences</string>
+    <string name="vouchers">Vouchers</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="my_orders">My Orders</string>
+    <string name="location">Location</string>
+    <string name="himanshu">Himanshu</string>
+    <string name="himanshubakshi99_gmail_com">himanshubakshi99@gmail.com</string>
+    <string name="profile">profile</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="nullify">null</string>
+    <string name="nothing">nothing</string>
+    <string name="safe_quarantine">SAFE QUARANTINE</string>
+    <string name="search">Search</string>
+
 </resources>

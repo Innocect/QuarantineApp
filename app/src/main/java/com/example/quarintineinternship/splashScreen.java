@@ -21,24 +21,26 @@ public class splashScreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
 
-        loginPreference = getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+        runner();
 
-        if(loginPreference.getString("tag", "notok").equals("notok")){
-
-
-            SharedPreferences.Editor edit = loginPreference.edit();
-            edit.putString("tag", "ok");
-            edit.apply();
-
-
-            setContentView(R.layout.splash);
-            runner();
-
-        }else if(loginPreference.getString("tag", null).equals("ok")){
-            Intent i = new Intent(splashScreen.this, MainActivity.class);
-            startActivity(i);
-            finish();
-        }
+//        loginPreference = getSharedPreferences(MY_PREF, Context.MODE_PRIVATE);
+//
+//        if(loginPreference.getString("tag", "notok").equals("notok")){
+//
+//
+//            SharedPreferences.Editor edit = loginPreference.edit();
+//            edit.putString("tag", "ok");
+//            edit.apply();
+//
+//
+//            setContentView(R.layout.splash);
+//            runner();
+//
+//        }else if(loginPreference.getString("tag", null).equals("ok")){
+//            Intent i = new Intent(splashScreen.this, MainActivity.class);
+//            startActivity(i);
+//            finish();
+//        }
 
 
     }

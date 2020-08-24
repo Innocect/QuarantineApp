@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#ECEBEB"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/profile_Image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/profile"
+        android:src="@drawable/stay_home_in_quarintine" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/himanshu"
+        android:textColor="#4169E1"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/himanshubakshi99_gmail_com"
+        android:textColor="#4169E1"
+        />
+
+</LinearLayout>

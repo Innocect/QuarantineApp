@@ -20,7 +20,7 @@ public class AfterSplash3rd extends Activity {
     }
 
     public void nextButton(View view){
-        Intent intent=new Intent(AfterSplash3rd.this,MainActivity.class);
+        Intent intent=new Intent(AfterSplash3rd.this,homePageWithoutMenu.class);
         startActivity(intent);
         finish();
     }

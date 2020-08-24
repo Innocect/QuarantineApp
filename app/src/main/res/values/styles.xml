@@ -3,7 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary </item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
@@ -16,5 +16,23 @@
         <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
     </style>
 
+    <style name="NavigationDrawerStyle">
+
+        <item name="android:textSize">18sp</item><!-- text size in menu-->
+
+        <!-- item size in menu-->
+        <item name="android:listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemHeightSmall">80dp</item>
+
+        <!-- item padding left in menu-->
+        <item name="android:listPreferredItemPaddingLeft">8dp</item>
+        <item name="listPreferredItemPaddingLeft">8dp</item>
+
+
+
+        <!-- item padding right in menu-->
+        <item name="android:listPreferredItemPaddingRight">8dp</item>
+        <item name="listPreferredItemPaddingRight">8dp</item>
+    </style>
 
 </resources>

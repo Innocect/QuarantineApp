@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/location" android:title="@string/location" android:icon="@drawable/ic_location_on_black_24dp"/>
+    <item android:id="@+id/my_orders" android:title="@string/my_orders" android:icon="@drawable/ic_shopping_cart_black_24dp"/>
+    <item android:id="@+id/payment" android:title="@string/payment_method" android:icon="@drawable/ic_payment_black_24dp"/>
+    <item android:id="@+id/delivery" android:title="@string/delivery_address" android:icon="@drawable/ic_home_black_24dp"/>
+    <item android:id="@+id/vouchers" android:title="@string/vouchers" android:icon="@drawable/ic_card_giftcard_black_24dp"/>
+    <item android:id="@+id/contact" android:title="@string/contact_preferences" android:icon="@drawable/ic_contacts_black_24dp"/>
+    <item android:id="@+id/logout" android:title="@string/logout" android:icon="@drawable/ic_power_settings_new_black_24dp"/>
+</menu>
