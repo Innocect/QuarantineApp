@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SAFE QUARANTINE</string>
+    <string name="app_name">QUARANTINE</string>
     <string name="rent_a_potential_quarantine_site">RENT A POTENTIAL QUARANTINE SITE</string>
     <string name="skip">Skip</string>
     <string name="next">Next</string>

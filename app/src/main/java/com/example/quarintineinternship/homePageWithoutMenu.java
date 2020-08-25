@@ -18,13 +18,12 @@ public class homePageWithoutMenu extends AppCompatActivity {
     public void rent(View view){
         Intent intent=new Intent(homePageWithoutMenu.this,MainActivity.class);
         startActivity(intent);
-        finish();
     }
 
     public void search_quarintine(View view){
         Intent intent=new Intent(homePageWithoutMenu.this,MainActivity.class);
         startActivity(intent);
-        finish();
+
     }
 
     @Override
