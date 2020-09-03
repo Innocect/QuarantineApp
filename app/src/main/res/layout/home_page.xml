@@ -11,14 +11,14 @@
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation"
-        app:headerLayout="@layout/drawer"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:theme="@style/NavigationDrawerStyle"
         android:background="#ECEBEB"
         app:itemTextColor="#000"
         app:itemIconTint="#000"
         app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/drawer"
+        android:theme="@style/NavigationDrawerStyle"
         android:layout_gravity="start"
         />
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -91,10 +91,12 @@
             android:id="@+id/textView4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="16dp"
             android:paddingLeft="10dp"
-            android:text="Categories"
+            android:paddingRight="10dp"
+            android:text="@string/categories"
             android:textColor="#000000"
             android:textSize="19sp"
             app:fontFamily="sans-serif-medium"
@@ -141,7 +143,7 @@
                         android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="Rent a potential Quarantine center" />
+                        android:text="@string/rent_a_potential_quarantine_center" />
 
                     <ImageButton
                         android:id="@+id/houses"
@@ -160,7 +162,7 @@
                         android:layout_marginRight="0dp"
                         android:layout_marginBottom="0dp"
                         android:background="@drawable/houses"
-                        android:contentDescription="nothing"
+                        android:contentDescription="@string/nothing"
                         android:onClick="rent" />
                 </RelativeLayout>
 
@@ -192,13 +194,13 @@
                         android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="Search a Quarantine center near you" />
+                        android:text="@string/search_a_quarantine_center_near_you" />
 
                     <ImageButton
                         android:id="@+id/search"
                         android:layout_width="match_parent"
                         android:layout_height="86dp"
-                        android:layout_above="@+id/textView2"
+                        android:layout_above="@+id/textView6"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentTop="true"
@@ -211,7 +213,7 @@
                         android:layout_marginRight="0dp"
                         android:layout_marginBottom="0dp"
                         android:background="@drawable/workinhome"
-                        android:contentDescription="nothing"
+                        android:contentDescription="@string/nothing"
                         android:onClick="search_quarintine" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -256,7 +258,7 @@
                         android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="E-Medicine" />
+                        android:text="@string/e_medicine" />
 
                     <ImageButton
                         android:id="@+id/e_medicine"
@@ -275,7 +277,7 @@
                         android:layout_marginRight="0dp"
                         android:layout_marginBottom="0dp"
                         android:background="@drawable/e_medicine"
-                        android:contentDescription="nothing"
+                        android:contentDescription="@string/nothing"
                         android:onClick="medicine" />
                 </RelativeLayout>
 
@@ -307,7 +309,7 @@
                         android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center"
                         android:textColor="#000"
-                        android:text="Room Service" />
+                        android:text="@string/room_service" />
 
                     <ImageButton
                         android:id="@+id/room_service"
@@ -326,7 +328,7 @@
                         android:layout_marginRight="0dp"
                         android:layout_marginBottom="0dp"
                         android:background="@drawable/cleaning_service"
-                        android:contentDescription="nothing"
+                        android:contentDescription="@string/nothing"
                         android:onClick="room_service" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -369,7 +371,7 @@
                         android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center"
                         android:padding="2dp"
-                        android:text="Food Services"
+                        android:text="@string/food_services"
                         android:textColor="#000"
                         android:textSize="15sp" />
 
@@ -390,7 +392,7 @@
                         android:layout_marginRight="0dp"
                         android:layout_marginBottom="0dp"
                         android:background="@drawable/food_services"
-                        android:contentDescription="nothing"
+                        android:contentDescription="@string/nothing"
                         android:onClick="food_service" />
                 </RelativeLayout>
 
@@ -420,7 +422,7 @@
                         android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center"
                         android:padding="2dp"
-                        android:text="Video Conferencing"
+                        android:text="@string/video_conferencing"
                         android:textColor="#000"
                         android:textSize="15sp" />
 
@@ -441,7 +443,7 @@
                         android:layout_marginRight="0dp"
                         android:layout_marginBottom="0dp"
                         android:background="@drawable/video_confrencing"
-                        android:contentDescription="nothing"
+                        android:contentDescription="@string/nothing"
                         android:onClick="video_chat" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>

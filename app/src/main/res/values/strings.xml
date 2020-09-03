@@ -12,7 +12,7 @@
     <string name="payment_method">Payment Method</string>
     <string name="my_orders">My Orders</string>
     <string name="location">Location</string>
-    <string name="himanshu">Himanshu</string>
+    <string name="himanshu">Himanshu Bakshi</string>
     <string name="himanshubakshi99_gmail_com">himanshubakshi99@gmail.com</string>
     <string name="profile">profile</string>
     <string name="open">open</string>
@@ -21,5 +21,13 @@
     <string name="nothing">nothing</string>
     <string name="safe_quarantine">SAFE QUARANTINE</string>
     <string name="search">Search</string>
+    <string name="title_activity_find_quarintine_map">FindQuarintineMap</string>
+    <string name="rent_a_potential_quarantine_center">Rent a potential Quarantine center</string>
+    <string name="search_a_quarantine_center_near_you">Search a Quarantine center near you</string>
+    <string name="e_medicine">E-Medicine</string>
+    <string name="room_service">Room Service</string>
+    <string name="food_services">Food Services</string>
+    <string name="video_conferencing">Video Conferencing</string>
+    <string name="categories">Categories</string>
 
 </resources>

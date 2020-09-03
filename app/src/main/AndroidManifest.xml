@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.quarintineinternship">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAfn-EwqPZaS7QIWqkXvfRnsU5ALP5lQmE"/>
+
+        <activity
+            android:name=".FindQuarintineMap"
+            android:label="@string/title_activity_find_quarintine_map"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".splashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,11 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".AfterSplash1st"/>
-        <activity android:name=".AfterSplash3rd"/>
-        <activity android:name=".homePageHamBurger"/>
-        <activity android:name=".homePageWithoutMenu"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AfterSplash1st" />
+        <activity android:name=".AfterSplash3rd" />
+        <activity android:name=".homePageHamBurger" />
     </application>
 
 </manifest>
