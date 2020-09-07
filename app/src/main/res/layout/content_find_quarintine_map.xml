@@ -29,7 +29,7 @@
 
         android:layout_margin="20dp"
         android:elevation="5dp"
-        android:outlineProvider="bounds"
+        android:outlineProvider="background"
         app:mt_hint="Search a place"
         app:mt_maxSuggestionsCount="10"
         app:mt_speechMode="false" />
@@ -37,16 +37,18 @@
     <Button
         android:id="@+id/search_map_btn"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
         android:elevation="5dp"
-        android:outlineProvider="bounds"
+        android:outlineProvider="background"
         android:text="Search Quarantine Centre"
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:background="@drawable/rectangle_text"
         />
 
