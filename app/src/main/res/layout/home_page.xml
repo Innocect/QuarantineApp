@@ -41,42 +41,50 @@
             app:layout_constraintTop_toTopOf="parent"
             app:navigationIcon="@drawable/menu_icon" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="288dp"
-            android:layout_height="33dp"
-            android:background="@drawable/rectangle_text"
-            android:fontFamily="sans-serif-medium"
-            android:gravity="center"
-            android:text="@string/safe_quarantine"
-            android:textColor="#FFFFFFFC"
-            android:textSize="17sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton"
-            app:layout_constraintHorizontal_bias="0.876"
-            app:layout_constraintStart_toStartOf="@+id/toolbar"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.55"
-            tools:targetApi="jelly_bean" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="43dp"
-            android:layout_height="29dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:background="#0000"
-            android:contentDescription="@string/nothing"
-            android:src="@drawable/ic_message_black_24dp"
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/editText"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle_text"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/safe_quarantine"
+                android:textColor="#FFFFFFFC"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:targetApi="jelly_bean" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="43dp"
+                android:layout_height="29dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.02"
+                android:background="#0000"
+                android:contentDescription="@string/nothing"
+                android:src="@drawable/ic_message_black_24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
 
         <EditText
             android:id="@+id/editText"
-            android:layout_width="373dp"
-            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_marginTop="12dp"
             android:background="@drawable/rectangle_white"

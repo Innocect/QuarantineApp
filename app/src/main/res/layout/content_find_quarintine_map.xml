@@ -24,15 +24,18 @@
     <com.mancj.materialsearchbar.MaterialSearchBar
         android:id="@+id/searchBar"
         style="@style/MaterialSearchBarLight"
-        android:layout_width="391dp"
-        android:layout_height="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
 
         android:layout_margin="20dp"
         android:elevation="5dp"
-        android:outlineProvider="background"
+        android:outlineProvider="bounds"
         app:mt_hint="Search a place"
         app:mt_maxSuggestionsCount="10"
-        app:mt_speechMode="false" />
+        app:mt_speechMode="false" >
+
+
+    </com.mancj.materialsearchbar.MaterialSearchBar>
 
     <Button
         android:id="@+id/search_map_btn"

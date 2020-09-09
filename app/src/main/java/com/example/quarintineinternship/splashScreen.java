@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import android.os.Handler;
+import android.util.Log;
 
 public class splashScreen extends Activity {
 
@@ -37,9 +38,10 @@ public class splashScreen extends Activity {
             runner();
 
         }else if(loginPreference.getString("tag", null).equals("ok")){
-            Intent i = new Intent(splashScreen.this, homePageHamBurger.class);
-            startActivity(i);
-            finish();
+            Log.i("Himanshu","Else pastr");
+            setContentView(R.layout.splash);
+            runner2();
+
         }
     }
 
@@ -53,6 +55,17 @@ public class splashScreen extends Activity {
                 finish();
             }
         },2000);
+    }
+    private void runner2(){
+        handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent i = new Intent(splashScreen.this, homePageHamBurger.class);
+                startActivity(i);
+                finish();
+            }
+        },1200);
     }
 
 
